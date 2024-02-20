@@ -1,0 +1,25 @@
+MANDATORY
+
+
+• The player needs to have characteristics == PAS FAIT
+
+
+• The player can fight enemies AND the characteristics impact the fights results == PAS FAIT
+
+
+• The player have an inventory which can contain a limited set of items == FAIT
+
+
+• The player can earn experience by winning fights and/or accomplishing specific actions == BARRE D'XP FAITE MAIS PAS ENCORE FONCTIONEL AVEC LES COMBATS
+
+
+• The player can level up thanks to experience AND upgrading its characteristics == SYSTEME DE LVL UP PAS FAIT
+
+
+• The game contains NPC == NPC FAIT MAIS PAS INCLU DANS LE JEU
+
+
+• The game contains at least one quest == EN COURS DE CREATION
+
+
+• The game contains a how to play system at the very beginning == FAIT

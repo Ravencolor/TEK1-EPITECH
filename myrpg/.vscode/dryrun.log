@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/spinault/delivery/GRAPHIQUE/B-MUL-200-LIL-2-1-myrpg-antoine.ballenghien'
+echo -e "\033[32;01m----->  Warning(s)  <-----\033[;0m"
+make: Leaving directory '/home/spinault/delivery/GRAPHIQUE/B-MUL-200-LIL-2-1-myrpg-antoine.ballenghien'
+ 

@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.rpy": "python",
+        "my_rpg.h": "c",
+        "csfml.h": "c",
+        "numbers": "c",
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "sstream": "c",
+        "graphics.h": "c"
+    },
+    "epilinter.tokenizer_address": "ws://54.36.183.139:8081"
+}

@@ -1,0 +1,17 @@
+                                    MY_RPG
+
+    INTRODUCTION
+        Vous incarnez Patrick, un chauve muscle mais il ne sait pas trop ce qu'il fait ici
+        A vous de le decouvrir
+
+    BUT DU JEUX
+        Suivez les quetes et foncer vers l aventure !
+
+
+AUTEURS:
+
+    enzo.boron@epitech.eu
+    gaspard.grignet-le-perron@epitech.eu
+    samuel.pinault@epitech.eu
+    antoine.ballenghien@epitech.eu
+

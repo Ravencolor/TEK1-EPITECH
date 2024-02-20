@@ -1,0 +1,607 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-redhat-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Wed Apr 19 10:01:01 2023
+
+# Variables
+
+# makefile (from 'Makefile', line 37)
+OBJ = $(SRC:.c=.o)
+# environment
+GDK_BACKEND = x11
+# makefile (from 'Makefile', line 53)
+CFLAG = -W -Wall -Wextra
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# makefile (from 'Makefile', line 8)
+SRC = src/main.c src/click_survol.c src/create_box.c src/create_menu.c src/create_txt_settings.c src/dead.c src/destroy_all.c src/dev.c src/draw_box.c src/draw_credit.c src/draw_game.c src/draw_menu.c src/draw_settings_in_game.c src/draw_settings_music.c src/draw_settings.c src/status_game_evt.c src/put_items.c src/main_perso.c src/loop.c src/life.c src/inventary.c src/init_var.c src/init_ptr.c src/primary_move.c src/collision.c src/init_xp.c src/draw_xp.c
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = /home/spinault
+# environment
+GDM_LANG = fr_FR.utf8
+# default
+MAKE_COMMAND := make
+# environment
+GTK3_MODULES = xapp-gtk3-module
+# environment
+define BASH_FUNC_which%%
+() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+endef
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/spinault/delivery/GRAPHIQUE/B-MUL-200-LIL-2-1-myrpg-antoine.ballenghien
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+HOSTNAME = fedora
+# environment
+MAIL = /var/spool/mail/spinault
+# environment
+XDG_DATA_DIRS = /home/spinault/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/usr/share
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/spinault/.config/Code/CachedData/7f329fe6c66b0f86ae1574c2911b681ad5a45d63
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+SSH_ASKPASS = /usr/libexec/openssh/gnome-ssh-askpass
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/lightdm/spinault/xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/spinault/delivery/GRAPHIQUE/B-MUL-200-LIL-2-1-myrpg-antoine.ballenghien
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = ||/usr/bin/lesspipe.sh %s
+# makefile (from 'Makefile', line 57)
+LIBALL = $(LIBMY) $(LIBPRINT) $(LIBLIST) $(LIBSPRINT) $(CSFML_LIB) -I include
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'Makefile', line 45)
+LIBMY = -L lib/my -lmy
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-XXXXXXikpGWk/agent.1407
+# default
+.SHELLFLAGS := -c
+# environment
+HISTSIZE = 1000
+# environment
+XDG_CONFIG_DIRS = /etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = xfce
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 3337
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/1407,unix/unix:/tmp/.ICE-unix/1407
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 43)
+LIBPRINT = -L lib/printf -lmyprint
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"fr-fr","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'Makefile', line 51)
+CSFML_LIB = -L lib/csfml -lmycsfml
+# default
+MAKE_HOST := x86_64-redhat-linux-gnu
+# environment
+IMSETTINGS_INTEGRATE_DESKTOP = yes
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=none
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 60)
+CSFML = -lcsfml-graphics -lcsfml-window -lcsfml-system -lcsfml-audio
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+IMSETTINGS_MODULE = none
+# environment
+PATH = /home/pinault.samuel/.local/bin:/home/pinault.samuel/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/pinault.samuel/my_scripts/
+# default
+MAKEFILES := 
+# makefile (from 'Makefile', line 55)
+VALGRIND = -ggdb3
+# automatic
+^F = $(notdir $^)
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 41)
+NAME = my_rpg
+# environment
+XDG_SEAT = seat0
+# makefile (from 'Makefile', line 49)
+LIBSPRINT = -L lib/sprintf -lmysprint
+# environment
+GTK_IM_MODULE = gtk-im-context-simple
+# environment
+XDG_CURRENT_DESKTOP = XFCE
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = xfce
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = XFCE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = spinault
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := say_warning
+# environment
+HISTCONTROL = ignoredups
+# environment
+EDITOR = /usr/bin/nano
+# environment
+DISPLAY = :0.0
+# environment
+USER = spinault
+# default
+MAKE_VERSION := 4.3
+# environment
+which_declare = declare -f
+# environment
+DEBUGINFOD_URLS = https://debuginfod.fedoraproject.org/ 
+# environment
+SSH_AGENT_PID = 1579
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 47)
+LIBLIST = -L lib/list -lmylist
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/spinault
+# environment
+QT_IM_MODULE = xim
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-bb0359a2-1.77-main.sock
+# environment
+TERM = dumb
+# environment
+XDG_SESSION_ID = 2
+# environment
+PANEL_GDK_CORE_DEVICE_EVENTS = 0
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/spinault
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# makefile (from 'Makefile', line 39)
+CC = gcc
+# environment
+XDG_MENU_PREFIX = xfce-
+# environment
+GDMSESSION = xfce
+# variable set hash-table stats:
+# Load=113/1024=11%, Rehash=0, Collisions=14/151=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 64769, inode 3678817): 15 files, no impossibilities.
+
+# 15 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.o: %.c
+#  recipe to execute (from 'Makefile', line 78):
+	$(CC) $(CFLAG) -c -o $@ $< $(LIBALL) $(CSFML)
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+test_run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 89):
+	@$(CC) tests/test.c -o test -lcriterion --coverage
+
+my:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 81):
+	@make -C  lib/my -s
+	@make -C  lib/printf -s
+	@make -C  lib/list -s
+	@make -C  lib/sprintf -s
+	@make -C  lib/csfml -s
+	@$(CC) main.c -o $(NAME) $(LIBALL) $(CFLAG) $(VALGRIND) $(CSFML)
+
+flag:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 123):
+	$(CC) $(SRC) -o $(NAME) $(LIBALL) $(CFLAG) $(CSFML)
+
+# Not a target:
+src/inventary.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/create_txt_settings.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/destroy_all.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/draw_credit.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/status_game_evt.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+debug:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 92):
+	@make -C  lib/my -s
+	@make -C  lib/printf -s
+	@make -C  lib/list -s
+	@make -C  lib/sprintf -s
+	@make -C  lib/csfml -s
+	@$(CC) $(SRC) -o $(NAME) $(LIBALL) $(VALGRIND) $(CSFML)
+	@echo -e "\033[33;01m----->  Debug  <-----\033[0m"
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2023-04-19 10:00:56.709192446
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/create_menu.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.SILENT: src/main.o src/click_survol.o src/create_box.o src/create_menu.o src/create_txt_settings.o src/dead.o src/destroy_all.o src/dev.o src/draw_box.o src/draw_credit.o src/draw_game.o src/draw_menu.o src/draw_settings_in_game.o src/draw_settings_music.o src/draw_settings.o src/status_game_evt.o src/put_items.o src/main_perso.o src/loop.o src/life.o src/inventary.o src/init_var.o src/init_ptr.o src/primary_move.o src/collision.o src/init_xp.o src/draw_xp.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+say_warning:
+ 
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := say_warning
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 65):
+	@echo -e "\033[32;01m----->  Warning(s)  <-----\033[;0m"
+
+# Not a target:
+src/main_perso.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 105):
+	@make clean -C lib/my -s
+	@make clean -C lib/printf -s
+	@make clean -C lib/list -s
+	@make clean -C lib/sprintf -s
+	@make clean -C lib/csfml -s
+	@rm -f $(NAME)
+	@rm -f *.o
+	@rm -f src/*.o
+	@rm -f lib/my/*.o
+	@rm -f lib/sprintf/*.o
+	@rm -f lib/printf/*.o
+	@rm -f src/game/*.o
+	@rm -f src/menu/*.o
+	@rm -f src/dead/*.o
+	@rm -f src/fight/*.o
+	@rm -f src/inventary/*.o
+
+# Not a target:
+src/loop.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/life.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+re: fclean all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 138):
+	@make re -C  lib/my -s
+	@make re -C  lib/printf -s
+	@make re -C  lib/list -s
+	@make re -C  lib/sprintf -s
+	@make re -C  lib/csfml -s
+
+# Not a target:
+src/primary_move.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/draw_box.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/collision.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: say_warning src/main.o src/click_survol.o src/create_box.o src/create_menu.o src/create_txt_settings.o src/dead.o src/destroy_all.o src/dev.o src/draw_box.o src/draw_credit.o src/draw_game.o src/draw_menu.o src/draw_settings_in_game.o src/draw_settings_music.o src/draw_settings.o src/status_game_evt.o src/put_items.o src/main_perso.o src/loop.o src/life.o src/inventary.o src/init_var.o src/init_ptr.o src/primary_move.o src/collision.o src/init_xp.o src/draw_xp.o
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  recipe to execute (from 'Makefile', line 69):
+	@make -C  lib/my -s
+	@make -C  lib/printf -s
+	@make -C  lib/list -s
+	@make -C  lib/sprintf -s
+	@make -C  lib/csfml -s
+	@$(CC) $(OBJ) -o $(NAME) $(LIBALL) $(CFLAG) $(CSFML)
+	@echo -e "\033[32;01m----->  Done  <-----\033[;0m"
+
+fclean: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 126):
+	@make fclean -C  lib/my -s
+	@make fclean -C  lib/printf -s
+	@make fclean -C  lib/list -s
+	@make fclean -C  lib/sprintf -s
+	@make fclean -C  lib/csfml -s
+	@rm -f coding-style-reports.log
+	@rm -f include/*.a
+	@rm -f *.a
+	@echo -e "\033[31;01m----->  Remove  <-----\033[;0m"
+
+# Not a target:
+src/click_survol.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/put_items.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+seg:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 102):
+	@$(CC) -o seg seg.c my_putchar.c
+
+# Not a target:
+src/draw_xp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/dev.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/draw_settings.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/draw_settings_in_game.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/draw_menu.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/draw_game.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/dead.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/draw_settings_music.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/init_var.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/init_xp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/create_box.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/init_ptr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=41/1024=4%, Rehash=0, Collisions=0/111=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 59 / storage = 670 B / avg = 11 B
+# current buf: size = 8162 B / used = 670 B / count = 59 / avg = 11 B
+
+# strcache performance: lookups = 107 / hit rate = 44%
+# hash-table stats:
+# Load=59/8192=1%, Rehash=0, Collisions=0/107=0%
+# Finished Make data base on Wed Apr 19 10:01:01 2023
+
+ 

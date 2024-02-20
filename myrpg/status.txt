@@ -1,0 +1,5 @@
+0: menu
+1: settings
+2: credits
+3: game
+4: Game settings

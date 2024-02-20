@@ -1,0 +1,73 @@
+MANDATORY 
+
+• Le joueur doit avoir des caractéristiques
+• Le joueur peut combattre des ennemis ET les caractéristiques impactent les résultats des combats
+• Le joueur possède un inventaire qui peut contenir un ensemble limité d'objets
+• Le joueur peut gagner de l'expérience en remportant des combats et/ou en accomplissant des actions spécifiques
+• Le joueur peut monter de niveau grâce à l'expérience ET en améliorant ses caractéristiques
+• Le jeu contient des PNJ
+• Le jeu contient au moins une quête
+• Le jeu contient un système expliquant comment jouer au tout début
+
+TECHNICAL REQUIEREMENTS
+
+Ce projet étant le dernier projet du module, les exigences mathématiques et techniques suivantes doivent être présentes dans votre projet final :
+• Un système de collision comprenant des éléments mobiles et statiques avec des formes différentes.
+• Des mouvements de caméra (zoom, translation, rotation).
+• Des effets 3D (mise à l'échelle de la profondeur, projection isométrique, etc.). 
+• Les boutons doivent avoir au moins 3 états différents 
+• Un système de sauvegarde.
+
+Général 
+
+• La fenêtre doit pouvoir être fermée en utilisant des événements, 
+• La fenêtre peut avoir différents modes : 
+• Mode fenêtre 
+• Mode plein écran 
+• La fenêtre peut avoir différentes résolutions, au moins deux (1920x1080, et une autre) 
+• Le jeu gère les entrées à partir du clic de souris et du clavier, 
+• Le jeu contient des sprites animés rendus grâce à des feuilles de sprites, 
+• Les animations dans votre programme sont indépendantes du taux de rafraîchissement, 
+• Les animations et les mouvements dans votre programme sont chronométrés par des horloges. 
+
+Main Menu 
+
+• Doit contenir au moins ces options 
+• Démarrer le jeu 
+• Reprise de partie (grisé si non possible) 
+• Réglages 
+• Quitter le jeu 
+• L'option de réglages doit contenir 
+• Options de volume de son et de musique 
+• Une option de taille et de résolution de la fenêtre 
+
+  In Game Menu
+
+• Doit être accessible en appuyant sur la touche Echap 
+• Doit contenir au moins ces options 
+• Options de personnage 
+• Gestion de l'équipement et de l'inventaire 
+• Gestion des caractéristiques 
+• Sauvegarde 
+• Chargement 
+• Réglages 
+• Les mêmes que dans le menu principal 
+• Liste des commandes 
+
+  SHOULD
+
+• Écran de présentation au début
+• Édition de commandes dans le menu en jeu
+• Autant d'informations que possible sur le jeu devraient être stockées dans un fichier de configuration.
+• Le jeu devrait avoir un système de collision avancé pour gérer les combats complexes.
+• Le jeu devrait contenir un système de particules simple :
+• avec au moins 2 types de particules,
+• des effets de particules (changement de couleurs, mise à l'échelle, rebondissement, fondu) pour simuler un environnement réaliste
+  (vent, feu, pluie, neige, etc.).
+
+  COULD
+
+• Avoir un arbre de compétences, débloquant différentes capacités (actives et passives).
+• Avoir un moteur de particules complet.
+• Utiliser un scripting pour décrire
+• Avoir un éditeur de map
